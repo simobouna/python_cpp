@@ -1,7 +1,7 @@
 CPPFLAGS += -I /usr/include/python3.8
 LIBS=-lpython3.8 
 
-COMPOSANT = hello_component
+COMPOSANT = animal
 
 LIBSO = ${COMPOSANT}.so
 LIBSO_OBJS = ${COMPOSANT}.o
